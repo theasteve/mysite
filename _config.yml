@@ -13,9 +13,9 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <p>Hey 👋! I'm Steven Aguilar, I like to create software </p>
 
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+     <p>I also enjoy writting about Tech, Design & Entrepreneurship</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
@@ -46,7 +46,7 @@ theme_settings:
 
   # Scripts
   google_analytics: "UA-170023621-1"# Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname: "theasteve_blog"
+  disqus_shortname: "theasteve-blog"
   katex: true # Enable if using math markup
   search: false # Enable the search feature
 
