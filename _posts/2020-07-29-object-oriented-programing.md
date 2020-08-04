@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using OOP principles to Refactor a Ruby script while listening to Netflix's Narcos season 3 soundtrack
+title: Using SOLID principles to refactor a Ruby script
 tags: [Ruby, OOP]
 ---
 
