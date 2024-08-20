@@ -6,6 +6,8 @@ tags: [Ruby, Rails]
 
 I recently started reading "A Layered Design for Ruby on Rails Applications" by Vladimir Dementyev. I have always encountered some pain points when working with Rails applications when the model and controller layers grow in scope. One specific problem is adding complex querying logic to the model. At first, although it does not look like a dangerous pursuit, adding such a burden on the model starts to crack into the code quality. Thankfully, the book talks about the use of Query Objects and how we can use them to extract complex queries from our models.
 
+I want to also emphasize that query objects is specificlly use for complex queries that might better suited to be extracted into its own class. Not every query needs to be a query object. 
+
 For loominex.io, a maintenance management system, I have the following model:
 
 {% highlight rb %}
